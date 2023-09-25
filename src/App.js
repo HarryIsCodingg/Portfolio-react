@@ -5,6 +5,7 @@ import HomePage from "./pages/home-page/HomePage";
 import WorkPage from "./pages/work-page/WorkPage";
 import {Provider} from "react-redux";
 import store from "./core/redux/store";
+import AboutMe from "./pages/about-me/AboutMe";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
                   <Routes>
                       <Route path='/' element={<HomePage />} />
                       <Route path='/works' element={<WorkPage />} />
+                      <Route path='/about' element={<AboutMe />} />
                   </Routes>
               </div>
           </Router>

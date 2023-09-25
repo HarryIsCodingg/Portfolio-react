@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
 
     .responsive-image {
         min-width: 400px;

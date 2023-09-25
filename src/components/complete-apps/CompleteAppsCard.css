@@ -4,12 +4,16 @@
 }
 
 .stack-used {
-    padding: 8px;
+    padding: 12px;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     border-top: 1px solid var(--grey-color);
     border-bottom: 1px solid var(--grey-color);
+}
+
+.app-description, .stack-item {
+    color: var(--grey-color);
 }
 
 .app-screenshot {

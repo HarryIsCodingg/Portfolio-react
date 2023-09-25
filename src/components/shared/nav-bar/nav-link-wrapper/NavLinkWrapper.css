@@ -11,7 +11,7 @@
     gap: 32px;
 }
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:480px) {
     .navlink-wrapper {
         display: none;
     }

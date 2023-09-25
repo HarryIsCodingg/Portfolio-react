@@ -1,0 +1,31 @@
+.about-me-wrapper{
+    padding: 54px;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 700px;
+}
+
+.white-text {
+    color: white;
+}
+
+.about-me-description-wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image {
+    height: 500px;
+}
+
+@media only screen and (max-width: 480px){
+    .about-image {
+        display: none;
+    }
+}

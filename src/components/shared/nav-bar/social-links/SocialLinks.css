@@ -13,8 +13,12 @@
     scale: 1.1;
 }
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:480px) {
     .social-link-container {
         display: none;
+    }
+
+    .social-link {
+        font-size: 36px;
     }
 }

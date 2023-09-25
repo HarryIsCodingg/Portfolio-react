@@ -9,7 +9,9 @@ const NavBar = () => {
             <div className='logo'></div>
             <div className='nav-right-column'>
                 <div className='navlink-wrapper'><NavLinkWrapper /></div>
-                <SocialLinks />
+                <div className='social-link-container'>
+                    <SocialLinks />
+                </div>
                 <Menu />
             </div>
         </div>

@@ -5,6 +5,7 @@ import Modal from 'react-modal';
 import NavLinkWrapper from "../nav-link-wrapper/NavLinkWrapper";
 import {useDispatch, useSelector} from "react-redux";
 import {closeMenuModal, openMenuModal, selectIsMenuModalOpen} from "../../../../core/redux/slices/menuModalSlice";
+import SocialLinks from "../social-links/SocialLinks";
 
 const Menu = () => {
 
@@ -51,6 +52,9 @@ const Menu = () => {
             <Modal isOpen={isModalOpen} className='menu-modal' style={customStyle}>
                 <div className='menu-navlink-wrapper'>
                     <NavLinkWrapper />
+                </div>
+                <div className='menu-social-link-wrapper'>
+                    <SocialLinks />
                 </div>
             </Modal>
         </div>
