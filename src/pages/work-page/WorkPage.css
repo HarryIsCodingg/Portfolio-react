@@ -1,0 +1,14 @@
+.work-page-wrapper {
+    padding: 54px;
+}
+
+.app-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+}
+
+.container {
+
+}
+

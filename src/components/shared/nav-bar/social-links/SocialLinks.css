@@ -1,0 +1,20 @@
+.social-link-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.social-link {
+    color: white;
+}
+
+.social-link:hover {
+    color: #C778DD;
+    scale: 1.1;
+}
+
+@media only screen and (max-width:640px) {
+    .social-link-container {
+        display: none;
+    }
+}

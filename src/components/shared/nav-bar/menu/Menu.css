@@ -1,0 +1,28 @@
+.menu-container {
+    display: none;
+}
+
+
+.menu-navlink-wrapper {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.menu-modal {
+    position: fixed;
+    margin-top: 100px;
+    top: 156px;
+    left: 100px;
+    transform: translate(-50%,-50%);
+}
+
+.menu-modal:focus {
+    outline: none;
+}
+
+@media only screen and (max-width:640px) {
+    .menu-container {
+        display: block;
+    }
+}

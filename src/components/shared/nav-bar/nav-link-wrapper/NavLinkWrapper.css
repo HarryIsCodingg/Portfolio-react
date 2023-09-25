@@ -1,0 +1,22 @@
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    scale: 1.2;
+}
+
+.navlink-wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+@media only screen and (max-width:640px) {
+    .navlink-wrapper {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 32px;
+    }
+}

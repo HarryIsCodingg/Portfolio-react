@@ -1,0 +1,29 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    background: url('../../../assets/images/logo.png');
+    height: 40px;
+    width: 60px;
+    background-size: cover;
+}
+
+
+.nav-right-column {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+@media only screen and (max-width:640px) {
+    .nav-bar {
+        position: relative;
+        z-index: 1000;
+    }
+}

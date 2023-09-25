@@ -1,0 +1,41 @@
+.complete-apps-card {
+    width: auto;
+    border: 1px solid var(--grey-color);
+}
+
+.stack-used {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-top: 1px solid var(--grey-color);
+    border-bottom: 1px solid var(--grey-color);
+}
+
+.app-screenshot {
+    display: inline-block;
+    width: 100%;
+    height:300px;
+}
+
+.app-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+
+.card-button {
+    color: white;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    align-items: center;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    background: #332936;
+}

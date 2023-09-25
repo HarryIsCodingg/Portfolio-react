@@ -1,0 +1,8 @@
+.body-wrapper {
+  background: #282C33;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: "Fira Code",monospace;
+  overflow-x: hidden;
+}
