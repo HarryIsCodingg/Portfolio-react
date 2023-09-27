@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Log files
+*.log
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Visual Studio Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Editor-specific files
+*.swp
+*.swo
+
+# Dependencies installed via npm
+package-lock.json

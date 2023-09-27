@@ -1,0 +1,70 @@
+.input {
+    background: none;
+    padding: 8px 0 8px 0;
+    color: white;
+    border: none;
+    border-bottom: 1px solid var(--grey-color);
+}
+
+input:focus {
+    outline: none;
+    border-bottom:1px solid #db98ee;
+}
+
+.email-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 36px;
+    margin-top: 56px;
+}
+
+.email-form div {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-label::after {
+    content: '*';
+    margin-left: 8px;
+    color: #C778DD;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 8px;
+    background: none;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 24px;
+    border: 1px solid var(--grey-color);
+}
+
+.success {
+    width: 100%;
+    padding: 8px;
+    background: green;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 24px;
+    border: none;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background: #332936;
+}
+
+.error {
+    margin-top: 8px;
+    color: red;
+}
+
+@media only screen and (max-width: 480px){
+    .submit-button {
+        max-width: 100%;
+    }
+}

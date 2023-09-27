@@ -24,7 +24,7 @@ const WorkPage = () => {
         <div className='work-page-wrapper'>
             <div className='font-size-large'><span className='primary-color'>/</span>projects</div>
             <div style={{marginTop: '14px', fontSize: '16px'}}>List of my projects</div>
-            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>complete-apps</div>
+            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>apps</div>
             <div className='app-container'>
                 <CompleteAppsCard image={feedbackUiImage} stackList={feedbackList} navigateTo='https://feeback-ui.netlify.app/'
                                   name='Feedback UI' description='User can add, edit and remove the feedback'/>
@@ -39,7 +39,7 @@ const WorkPage = () => {
                 <CompleteAppsCard image={petAdoption} stackList={petAdoptionList} navigateTo='https://users.encs.concordia.ca/~s_harin/Soen287/PetAdoption/home.php'
                                   name='Pet Adoption' description='Academic project for pet adoption'/>
             </div>
-            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>short-apps</div>
+            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>mini-apps</div>
             <div className='app-container'>
                 <ShortApps language='java' name='Dining philosopher' description={diningPhilosopher}
                            navigateTo='https://github.com/HarryIsCodingg/Dining-Philosopher-Algorithm'/>

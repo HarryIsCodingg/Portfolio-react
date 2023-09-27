@@ -9,7 +9,7 @@
     display: flex;
     margin-top: 62px;
     padding: 24px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .right-column {
@@ -56,24 +56,38 @@
 }
 
 .working-row {
-    width: 500px;
+    margin-left: 40px;
+    width: 400px;
+    border-radius: 4px;
     padding: 8px;
     border: 1px solid white;
 }
 
 .contact-button:hover {
     cursor: pointer;
+    background: #332936;
 }
 
 @media only screen and (max-width: 480px) {
 
     .responsive-image {
-        min-width: 400px;
+        margin-top: 36px;
+        max-width: 360px;
     }
 
     .landing-page-wrapper {
         flex-direction: column;
         padding: 20px;
+        margin-top: 20px;
+    }
+
+    .contact-button {
+        max-width: 100%;
+    }
+
+    .working-row {
+        margin-left: 20px;
+        max-width: 300px;
     }
 }
 

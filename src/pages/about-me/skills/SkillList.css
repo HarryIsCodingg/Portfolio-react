@@ -1,0 +1,6 @@
+.skill-list {
+    display: flex;
+    gap: 42px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}

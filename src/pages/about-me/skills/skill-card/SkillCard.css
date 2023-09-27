@@ -1,0 +1,20 @@
+.skill-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.skill-card {
+    flex-grow: 1;
+    border: 1px solid var(--grey-color);
+}
+
+.skillset-description {
+    padding: 12px;
+    border-bottom: 1px solid var(--grey-color);
+}
+
+.skill-list-wrapper {
+    padding: 12px;
+}
+

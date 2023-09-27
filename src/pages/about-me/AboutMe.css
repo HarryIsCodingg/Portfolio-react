@@ -24,8 +24,41 @@
     height: 500px;
 }
 
+.title-wrapper {
+    display: flex;
+    padding-top: 56px;
+    justify-content: space-between;
+}
+
+.certificate-image {
+    position: relative;
+    top: -200px;
+    height: 600px;
+    max-width: 1200px;
+}
+
 @media only screen and (max-width: 480px){
     .about-image {
         display: none;
+    }
+    .about-me-wrapper {
+        padding: 16px;
+        margin-top: 30px;
+    }
+
+    .who-text {
+        margin-bottom: 16px;
+    }
+
+    .design-image {
+        display: none;
+    }
+
+    .certificate-image, .french-certificate{
+        margin-top: 20px;
+        height: 300px;
+        max-width: 350px;
+        position: relative;
+        top: 0;
     }
 }

@@ -5,6 +5,19 @@
 .app-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 24px;
+    row-gap: 100px;
+    column-gap: 56px;
 }
 
+@media only screen and (max-width: 480px) {
+    .work-page-wrapper {
+        padding: 16px;
+        margin-top: 40px;
+    }
+
+    .app-container {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+}

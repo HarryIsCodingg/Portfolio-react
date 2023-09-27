@@ -6,6 +6,8 @@ import WorkPage from "./pages/work-page/WorkPage";
 import {Provider} from "react-redux";
 import store from "./core/redux/store";
 import AboutMe from "./pages/about-me/AboutMe";
+import ContactPage from "./pages/contact-page/ContactPage";
+import Footer from "./components/shared/footer/Footer";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
                       <Route path='/' element={<HomePage />} />
                       <Route path='/works' element={<WorkPage />} />
                       <Route path='/about' element={<AboutMe />} />
+                      <Route path='/contact' element={<ContactPage />} />
                   </Routes>
+                  <Footer />
               </div>
           </Router>
       </Provider>
