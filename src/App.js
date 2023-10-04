@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import NavBar from "./components/shared/nav-bar/NavBar";
 import HomePage from "./pages/home-page/HomePage";
@@ -12,7 +12,7 @@ import Footer from "./components/shared/footer/Footer";
 function App() {
   return (
       <Provider store={store}>
-          <Router>
+          <HashRouter>
               <div className='body-wrapper'>
                   <NavBar />
                   <Routes>
@@ -23,7 +23,7 @@ function App() {
                   </Routes>
                   <Footer />
               </div>
-          </Router>
+          </HashRouter>
       </Provider>
   );
 }
