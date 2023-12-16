@@ -9,6 +9,14 @@
     border: 1px solid var(--grey-color);
 }
 
+.skill-card:hover {
+    box-shadow: rgba(184, 69, 243, 0.5) 0 5px 15px 0;
+}
+
+.skill {
+    color: var(--grey-color);
+}
+
 .skillset-description {
     padding: 12px;
     border-bottom: 1px solid var(--grey-color);

@@ -6,7 +6,7 @@ const SkillCard = (props) => {
             <div className='skillset-description'>{props.skillsetDescription}</div>
             <div className='skill-list-wrapper'>
                 {props.skillsList.map((skill, index) =>
-                    <span key={index} className='skill grey-color'>{skill}</span>)}
+                    <span key={index} className='skill'>{skill}</span>)}
             </div>
         </div>
     )

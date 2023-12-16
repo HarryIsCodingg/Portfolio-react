@@ -6,6 +6,7 @@ import ecommerceAPI from '../../assets/images/ecommerce-backend.png';
 import hotel from '../../assets/images/Hotel.png';
 import edgeLedger from '../../assets/images/edgeLedger.png';
 import petAdoption from '../../assets/images/pet-adoption.png';
+import vibeCheck from '../../assets/images/vibeCheck.png';
 import ShortApps from "../../components/short-apps/ShortApps";
 
 const WorkPage = () => {
@@ -26,6 +27,8 @@ const WorkPage = () => {
             <div style={{marginTop: '14px', fontSize: '16px'}}>List of my projects</div>
             <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>apps</div>
             <div className='app-container'>
+                <CompleteAppsCard image={vibeCheck} stackList={feedbackList} navigateTo='https://vibecheck-cc9h.onrender.com/'
+                                  name='VibeCheck' description='Vision different vibes during event venue booking'/>
                 <CompleteAppsCard image={feedbackUiImage} stackList={feedbackList} navigateTo='https://feeback-ui.netlify.app/'
                                   name='Feedback UI' description='User can add, edit and remove the feedback'/>
                 <CompleteAppsCard image={ecommerceImage} stackList={ecommerceList} navigateTo='https://ecommerce-ls1b.onrender.com/'

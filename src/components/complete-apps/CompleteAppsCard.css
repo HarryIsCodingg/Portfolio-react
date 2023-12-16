@@ -6,7 +6,7 @@
 
 .complete-apps-card:hover {
     scale: 1.01;
-    box-shadow: rgba(220, 214, 214, 0.5) 0 5px 15px 0;;
+    box-shadow: rgba(220, 214, 214, 0.5) 0 5px 15px 0;
 }
 
 .stack-used {
