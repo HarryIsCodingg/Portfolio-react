@@ -8,6 +8,7 @@ import store from "./core/redux/store";
 import AboutMe from "./pages/about-me/AboutMe";
 import ContactPage from "./pages/contact-page/ContactPage";
 import Footer from "./components/shared/footer/Footer";
+import Startup from "./pages/startup/Startup";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                       <Route path='/' element={<HomePage />} />
                       <Route path='/works' element={<WorkPage />} />
                       <Route path='/about' element={<AboutMe />} />
+                      <Route path='/startup' element={<Startup />} />
                       <Route path='/contact' element={<ContactPage />} />
                   </Routes>
                   <Footer />

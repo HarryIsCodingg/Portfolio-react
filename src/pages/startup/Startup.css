@@ -1,0 +1,43 @@
+.startup-wrapper {
+    padding: 54px;
+}
+
+.startup-image {
+    width: 100%;
+    border-radius: 8px;
+    height: 100vh;
+}
+
+.homeeatz-link {
+    color: white;
+    font-weight: bold;
+}
+
+.startup-button {
+    width: fit-content;
+}
+
+.startup-image-design {
+    position: absolute;
+    right: 0;
+}
+
+.explore-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+    .startup-wrapper {
+        padding: 16px;
+    }
+
+    .startup-image {
+        height: 200px;
+        object-fit: fill;
+    }
+
+    .startup-button {
+        width: 90%;
+    }
+}

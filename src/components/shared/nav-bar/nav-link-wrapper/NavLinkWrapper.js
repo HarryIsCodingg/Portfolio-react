@@ -19,6 +19,7 @@ const NavLinkWrapper = () => {
         <>
             <NavLink to='/' className='nav-link link' onClick={closeModal}><span className='primary-color'>#</span>home</NavLink>
             <NavLink to='/about' className='nav-link link' onClick={closeModal}><span className='primary-color'>#</span>about-me</NavLink>
+            <NavLink to='/startup' className='nav-link link' onClick={closeModal}><span className='primary-color'>#</span>startup</NavLink>
             <NavLink to='/works' className='nav-link link' onClick={closeModal}><span className='primary-color'>#</span>works</NavLink>
             <NavLink to='/contact' className='nav-link link' onClick={closeModal}><span className='primary-color'>#</span>contact</NavLink>
         </>
