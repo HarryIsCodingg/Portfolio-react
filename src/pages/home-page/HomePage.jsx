@@ -15,10 +15,10 @@ const HomePage = () => {
             <div className='landing-page-wrapper'>
                 <div className='short-description'>
                     <h3 className='short-description-text'>
-                        I am <span className='primary-color'>founder, lead developer</span> of HomeEatz
+                        <span className='primary-color'>Founder, lead developer</span> of HomeEatz
                     </h3>
                     <span className='short-description-sub'>
-                        He crafts responsive websites where technologies meet creativity
+                        I crafts responsive websites where technologies meet creativity
                     </span>
                     <div className='contact-button' onClick={goToContactPage}>Contact me !</div>
                 </div>
